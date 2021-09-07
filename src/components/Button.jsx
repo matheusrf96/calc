@@ -3,8 +3,6 @@ import React from 'react'
 import './Button.css'
 
 const Button = (props) => {
-    console.log(props.triple)
-
     return (
         <button
             onClick={(e) => props.click && props.click(props.label)}
